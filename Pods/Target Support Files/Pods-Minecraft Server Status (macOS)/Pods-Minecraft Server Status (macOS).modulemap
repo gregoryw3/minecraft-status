@@ -1,0 +1,6 @@
+framework module Pods_Minecraft_Server_Status__macOS_ {
+  umbrella header "Pods-Minecraft Server Status (macOS)-umbrella.h"
+
+  export *
+  module * { export * }
+}

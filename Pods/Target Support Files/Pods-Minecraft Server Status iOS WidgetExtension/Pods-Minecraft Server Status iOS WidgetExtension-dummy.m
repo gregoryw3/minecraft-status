@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Minecraft_Server_Status_iOS_WidgetExtension : NSObject
+@end
+@implementation PodsDummy_Pods_Minecraft_Server_Status_iOS_WidgetExtension
+@end

@@ -8,10 +8,15 @@
 import SwiftUI
 
 @main
-struct Minecraft_Server_StatusApp: App {
+struct MinecraftServerStatusApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabViewController();
         }
+        #if os(macOS)
+        Settings {
+            SettingsMacView()
+        }
+        #endif
     }
 }

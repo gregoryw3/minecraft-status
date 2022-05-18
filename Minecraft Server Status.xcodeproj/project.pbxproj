@@ -7,16 +7,76 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A5064BA25E600A628919E15 /* Pods_Minecraft_Server_Status_MacOS_WidgetExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF65883D23D246C14CB3A943 /* Pods_Minecraft_Server_Status_MacOS_WidgetExtension.framework */; };
+		1D8DBED77B5CB7FB0CACA2CA /* Pods_Minecraft_Server_Status_Watch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DE5B6F0DD94C29FCAA063CF /* Pods_Minecraft_Server_Status_Watch.framework */; };
+		23F823CB3738CB8C9E18494C /* Pods_Minecraft_Server_Status__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CADBD0A3C6027881BC3D205 /* Pods_Minecraft_Server_Status__iOS_.framework */; };
+		4F792CCFE05C0084D76BC5DA /* Pods_Minecraft_Server_Status_Watch_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CE7E787355EB5E45455984 /* Pods_Minecraft_Server_Status_Watch_WatchKit_Extension.framework */; };
+		A1CE7E2276CF5085F0371C73 /* Pods_Minecraft_Server_Status__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ADB7E9690B3D66A642333F5 /* Pods_Minecraft_Server_Status__macOS_.framework */; };
+		CE8E58E016D3671114E26C22 /* Pods_Minecraft_Server_Status_iOS_WidgetExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CF14B71D2BC19C97A66605 /* Pods_Minecraft_Server_Status_iOS_WidgetExtension.framework */; };
+		D5746938739C54415216CE6F /* Pods_Minecraft_Server_Status_WatchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33BB1253EA091CFFFBB8878C /* Pods_Minecraft_Server_Status_WatchTests.framework */; };
+		D86CBF2886E3398A93C18D60 /* Pods_Minecraft_Server_Status_Watch_Minecraft_Server_Status_WatchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AD1EFBE65AD1EB56F315DE0 /* Pods_Minecraft_Server_Status_Watch_Minecraft_Server_Status_WatchUITests.framework */; };
 		F3838FB9283324E500E48AB2 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3838FB8283324E500E48AB2 /* Tests_iOS.swift */; };
 		F3838FBB283324E500E48AB2 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3838FBA283324E500E48AB2 /* Tests_iOSLaunchTests.swift */; };
 		F3838FC5283324E500E48AB2 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3838FC4283324E500E48AB2 /* Tests_macOS.swift */; };
 		F3838FC7283324E500E48AB2 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3838FC6283324E500E48AB2 /* Tests_macOSLaunchTests.swift */; };
-		F3838FC8283324E500E48AB2 /* Minecraft_Server_StatusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3838FA0283324E500E48AB2 /* Minecraft_Server_StatusApp.swift */; };
-		F3838FC9283324E500E48AB2 /* Minecraft_Server_StatusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3838FA0283324E500E48AB2 /* Minecraft_Server_StatusApp.swift */; };
-		F3838FCA283324E500E48AB2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3838FA1283324E500E48AB2 /* ContentView.swift */; };
-		F3838FCB283324E500E48AB2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3838FA1283324E500E48AB2 /* ContentView.swift */; };
+		F3838FC8283324E500E48AB2 /* MinecraftServerStatusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3838FA0283324E500E48AB2 /* MinecraftServerStatusApp.swift */; };
+		F3838FC9283324E500E48AB2 /* MinecraftServerStatusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3838FA0283324E500E48AB2 /* MinecraftServerStatusApp.swift */; };
 		F3838FCC283324E500E48AB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3838FA2283324E500E48AB2 /* Assets.xcassets */; };
 		F3838FCD283324E500E48AB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3838FA2283324E500E48AB2 /* Assets.xcassets */; };
+		F3838FDD2833251000E48AB2 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3838FDC2833251000E48AB2 /* TabViewController.swift */; };
+		F3838FDE2833251000E48AB2 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3838FDC2833251000E48AB2 /* TabViewController.swift */; };
+		F3838FE02833252900E48AB2 /* PopularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3838FDF2833252900E48AB2 /* PopularView.swift */; };
+		F3838FE12833252900E48AB2 /* PopularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3838FDF2833252900E48AB2 /* PopularView.swift */; };
+		F3838FE32833253500E48AB2 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3838FE22833253500E48AB2 /* FavoritesView.swift */; };
+		F3838FE42833253500E48AB2 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3838FE22833253500E48AB2 /* FavoritesView.swift */; };
+		F3838FE62833254300E48AB2 /* UserServers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3838FE52833254300E48AB2 /* UserServers.swift */; };
+		F3838FE72833254300E48AB2 /* UserServers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3838FE52833254300E48AB2 /* UserServers.swift */; };
+		F3838FE92833255B00E48AB2 /* SettingsiOSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3838FE82833255B00E48AB2 /* SettingsiOSView.swift */; };
+		F3838FEB2833257000E48AB2 /* SettingsMacView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3838FEA2833257000E48AB2 /* SettingsMacView.swift */; };
+		F3838FED2833258300E48AB2 /* ShareSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3838FEC2833258300E48AB2 /* ShareSheetView.swift */; };
+		F3838FF5283326FE00E48AB2 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3838FF4283326FE00E48AB2 /* WidgetKit.framework */; };
+		F3838FF7283326FE00E48AB2 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3838FF6283326FE00E48AB2 /* SwiftUI.framework */; };
+		F3838FFA283326FE00E48AB2 /* Minecraft_Server_Status_iOS_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3838FF9283326FE00E48AB2 /* Minecraft_Server_Status_iOS_Widget.swift */; };
+		F3838FFD283326FE00E48AB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3838FFC283326FE00E48AB2 /* Assets.xcassets */; };
+		F3838FFF283326FE00E48AB2 /* Minecraft_Server_Status_iOS_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = F3838FFB283326FE00E48AB2 /* Minecraft_Server_Status_iOS_Widget.intentdefinition */; };
+		F3839000283326FE00E48AB2 /* Minecraft_Server_Status_iOS_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = F3838FFB283326FE00E48AB2 /* Minecraft_Server_Status_iOS_Widget.intentdefinition */; };
+		F3839003283326FE00E48AB2 /* Minecraft Server Status iOS WidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F3838FF2283326FE00E48AB2 /* Minecraft Server Status iOS WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F383900D2833271D00E48AB2 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3838FF4283326FE00E48AB2 /* WidgetKit.framework */; };
+		F383900E2833271D00E48AB2 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3838FF6283326FE00E48AB2 /* SwiftUI.framework */; };
+		F38390112833271D00E48AB2 /* Minecraft_Server_Status_MacOS_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38390102833271D00E48AB2 /* Minecraft_Server_Status_MacOS_Widget.swift */; };
+		F38390142833271E00E48AB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F38390132833271E00E48AB2 /* Assets.xcassets */; };
+		F38390172833271E00E48AB2 /* Minecraft_Server_Status_MacOS_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = F38390122833271D00E48AB2 /* Minecraft_Server_Status_MacOS_Widget.intentdefinition */; };
+		F38390182833271E00E48AB2 /* Minecraft_Server_Status_MacOS_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = F38390122833271D00E48AB2 /* Minecraft_Server_Status_MacOS_Widget.intentdefinition */; };
+		F383901B2833271E00E48AB2 /* Minecraft Server Status MacOS WidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F383900C2833271D00E48AB2 /* Minecraft Server Status MacOS WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F38390252833279700E48AB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F38390242833279700E48AB2 /* Assets.xcassets */; };
+		F383902B2833279700E48AB2 /* Minecraft Server Status Watch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F383902A2833279700E48AB2 /* Minecraft Server Status Watch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F38390302833279800E48AB2 /* Minecraft_Server_StatusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F383902F2833279800E48AB2 /* Minecraft_Server_StatusApp.swift */; };
+		F38390322833279800E48AB2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38390312833279800E48AB2 /* ContentView.swift */; };
+		F38390342833279800E48AB2 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38390332833279800E48AB2 /* NotificationController.swift */; };
+		F38390362833279800E48AB2 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38390352833279800E48AB2 /* NotificationView.swift */; };
+		F38390382833279800E48AB2 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38390372833279800E48AB2 /* ComplicationController.swift */; };
+		F383903A2833279800E48AB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F38390392833279800E48AB2 /* Assets.xcassets */; };
+		F383903D2833279800E48AB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F383903C2833279800E48AB2 /* Preview Assets.xcassets */; };
+		F38390492833279800E48AB2 /* Minecraft_Server_Status_WatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38390482833279800E48AB2 /* Minecraft_Server_Status_WatchTests.swift */; };
+		F38390532833279800E48AB2 /* Minecraft_Server_Status_WatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38390522833279800E48AB2 /* Minecraft_Server_Status_WatchUITests.swift */; };
+		F38390552833279800E48AB2 /* Minecraft_Server_Status_WatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38390542833279800E48AB2 /* Minecraft_Server_Status_WatchUITestsLaunchTests.swift */; };
+		F38390582833279800E48AB2 /* Minecraft Server Status Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F38390222833279700E48AB2 /* Minecraft Server Status Watch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F3DA629B2834207500A0E829 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = F3DA629A2834207500A0E829 /* Fonts */; };
+		F3DA629C2834207500A0E829 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = F3DA629A2834207500A0E829 /* Fonts */; };
+		F3DA629E2834209D00A0E829 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = F3DA629D2834209D00A0E829 /* Fonts */; };
+		F3DA629F2834209D00A0E829 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = F3DA629D2834209D00A0E829 /* Fonts */; };
+		F3DA62A3283422E500A0E829 /* ServerHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DA62A2283422E500A0E829 /* ServerHeader.swift */; };
+		F3DA62A4283422E500A0E829 /* ServerHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DA62A2283422E500A0E829 /* ServerHeader.swift */; };
+		F3DA62A62834407C00A0E829 /* identicon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DA62A52834407C00A0E829 /* identicon.swift */; };
+		F3DA62A72834407C00A0E829 /* identicon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DA62A52834407C00A0E829 /* identicon.swift */; };
+		F3DA62A92834570500A0E829 /* identiconLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DA62A82834570500A0E829 /* identiconLib.swift */; };
+		F3DA62AA2834570500A0E829 /* identiconLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DA62A82834570500A0E829 /* identiconLib.swift */; };
+		F3DA62AC28345D3900A0E829 /* ServerPing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DA62AB28345D3900A0E829 /* ServerPing.swift */; };
+		F3DA62AD28345D3900A0E829 /* ServerPing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DA62AB28345D3900A0E829 /* ServerPing.swift */; };
+		F3DA62AF2834648100A0E829 /* BedrockPing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DA62AE2834648100A0E829 /* BedrockPing.swift */; };
+		F3DA62B02834648100A0E829 /* BedrockPing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DA62AE2834648100A0E829 /* BedrockPing.swift */; };
+		F3DA62B22834648B00A0E829 /* JavaPing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DA62B12834648B00A0E829 /* JavaPing.swift */; };
+		F3DA62B32834648B00A0E829 /* JavaPing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DA62B12834648B00A0E829 /* JavaPing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +94,122 @@
 			remoteGlobalIDString = F3838FAC283324E500E48AB2;
 			remoteInfo = "Minecraft Server Status (macOS)";
 		};
+		F3839001283326FE00E48AB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3838F9B283324E400E48AB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3838FF1283326FE00E48AB2;
+			remoteInfo = "Minecraft Server Status iOS WidgetExtension";
+		};
+		F38390192833271E00E48AB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3838F9B283324E400E48AB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F383900B2833271D00E48AB2;
+			remoteInfo = "Minecraft Server Status MacOS WidgetExtension";
+		};
+		F383902C2833279700E48AB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3838F9B283324E400E48AB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F38390292833279700E48AB2;
+			remoteInfo = "Minecraft Server Status Watch WatchKit Extension";
+		};
+		F38390452833279800E48AB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3838F9B283324E400E48AB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F38390292833279700E48AB2;
+			remoteInfo = "Minecraft Server Status Watch WatchKit Extension";
+		};
+		F383904F2833279800E48AB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3838F9B283324E400E48AB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F38390212833279700E48AB2;
+			remoteInfo = "Minecraft Server Status Watch";
+		};
+		F38390562833279800E48AB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3838F9B283324E400E48AB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F38390212833279700E48AB2;
+			remoteInfo = "Minecraft Server Status Watch";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F3839007283326FE00E48AB2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F3839003283326FE00E48AB2 /* Minecraft Server Status iOS WidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F383901F2833271E00E48AB2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F383901B2833271E00E48AB2 /* Minecraft Server Status MacOS WidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F383905C2833279800E48AB2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F383902B2833279700E48AB2 /* Minecraft Server Status Watch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38390602833279800E48AB2 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F38390582833279800E48AB2 /* Minecraft Server Status Watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		F3838FA0283324E500E48AB2 /* Minecraft_Server_StatusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minecraft_Server_StatusApp.swift; sourceTree = "<group>"; };
-		F3838FA1283324E500E48AB2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0DE5B6F0DD94C29FCAA063CF /* Pods_Minecraft_Server_Status_Watch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Minecraft_Server_Status_Watch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F96B9A16791E8C268AB4D5C /* Pods-Minecraft Server Status Watch WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minecraft Server Status Watch WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-Minecraft Server Status Watch WatchKit Extension/Pods-Minecraft Server Status Watch WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		2AD1EFBE65AD1EB56F315DE0 /* Pods_Minecraft_Server_Status_Watch_Minecraft_Server_Status_WatchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Minecraft_Server_Status_Watch_Minecraft_Server_Status_WatchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33BB1253EA091CFFFBB8878C /* Pods_Minecraft_Server_Status_WatchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Minecraft_Server_Status_WatchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		349314D8A7E1A97BAFDD2F10 /* Pods-Minecraft Server Status WatchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minecraft Server Status WatchTests.debug.xcconfig"; path = "Target Support Files/Pods-Minecraft Server Status WatchTests/Pods-Minecraft Server Status WatchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		532D8FB974A13BFA50904046 /* Pods-Minecraft Server Status iOS WidgetExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minecraft Server Status iOS WidgetExtension.release.xcconfig"; path = "Target Support Files/Pods-Minecraft Server Status iOS WidgetExtension/Pods-Minecraft Server Status iOS WidgetExtension.release.xcconfig"; sourceTree = "<group>"; };
+		61FF78E9139811E55EFEBF50 /* Pods-Minecraft Server Status Watch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minecraft Server Status Watch.debug.xcconfig"; path = "Target Support Files/Pods-Minecraft Server Status Watch/Pods-Minecraft Server Status Watch.debug.xcconfig"; sourceTree = "<group>"; };
+		6280D107DC65D811CF4C7DAA /* Pods-Minecraft Server Status (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minecraft Server Status (macOS).debug.xcconfig"; path = "Target Support Files/Pods-Minecraft Server Status (macOS)/Pods-Minecraft Server Status (macOS).debug.xcconfig"; sourceTree = "<group>"; };
+		6E903773868E367AD8CBD5C2 /* Pods-Minecraft Server Status MacOS WidgetExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minecraft Server Status MacOS WidgetExtension.release.xcconfig"; path = "Target Support Files/Pods-Minecraft Server Status MacOS WidgetExtension/Pods-Minecraft Server Status MacOS WidgetExtension.release.xcconfig"; sourceTree = "<group>"; };
+		7ADB7E9690B3D66A642333F5 /* Pods_Minecraft_Server_Status__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Minecraft_Server_Status__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C58C209913E2675877D42B7 /* Pods-Minecraft Server Status MacOS WidgetExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minecraft Server Status MacOS WidgetExtension.debug.xcconfig"; path = "Target Support Files/Pods-Minecraft Server Status MacOS WidgetExtension/Pods-Minecraft Server Status MacOS WidgetExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		7CADBD0A3C6027881BC3D205 /* Pods_Minecraft_Server_Status__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Minecraft_Server_Status__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81CE7E787355EB5E45455984 /* Pods_Minecraft_Server_Status_Watch_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Minecraft_Server_Status_Watch_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81E862A711DB75E9336B8425 /* Pods-Minecraft Server Status WatchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minecraft Server Status WatchTests.release.xcconfig"; path = "Target Support Files/Pods-Minecraft Server Status WatchTests/Pods-Minecraft Server Status WatchTests.release.xcconfig"; sourceTree = "<group>"; };
+		8EE472B88EED1FB1A359DCD5 /* Pods-Minecraft Server Status Watch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minecraft Server Status Watch.release.xcconfig"; path = "Target Support Files/Pods-Minecraft Server Status Watch/Pods-Minecraft Server Status Watch.release.xcconfig"; sourceTree = "<group>"; };
+		9677623516252EAAC0DF8712 /* Pods-Minecraft Server Status (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minecraft Server Status (iOS).debug.xcconfig"; path = "Target Support Files/Pods-Minecraft Server Status (iOS)/Pods-Minecraft Server Status (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		BF65883D23D246C14CB3A943 /* Pods_Minecraft_Server_Status_MacOS_WidgetExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Minecraft_Server_Status_MacOS_WidgetExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C112C96B00CC3FD5661F42CF /* Pods-Minecraft Server Status Watch WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minecraft Server Status Watch WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-Minecraft Server Status Watch WatchKit Extension/Pods-Minecraft Server Status Watch WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		C928CEDCFE8A0370DE7834C7 /* Pods-Minecraft Server Status (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minecraft Server Status (iOS).release.xcconfig"; path = "Target Support Files/Pods-Minecraft Server Status (iOS)/Pods-Minecraft Server Status (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		D1F3386CBF9A7424D0BB8A92 /* Pods-Minecraft Server Status (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minecraft Server Status (macOS).release.xcconfig"; path = "Target Support Files/Pods-Minecraft Server Status (macOS)/Pods-Minecraft Server Status (macOS).release.xcconfig"; sourceTree = "<group>"; };
+		D3F68547DB76A98D1A60185F /* Pods-Minecraft Server Status Watch-Minecraft Server Status WatchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minecraft Server Status Watch-Minecraft Server Status WatchUITests.release.xcconfig"; path = "Target Support Files/Pods-Minecraft Server Status Watch-Minecraft Server Status WatchUITests/Pods-Minecraft Server Status Watch-Minecraft Server Status WatchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D660124A28D4E16D8D9A20CF /* Pods-Minecraft Server Status Watch-Minecraft Server Status WatchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minecraft Server Status Watch-Minecraft Server Status WatchUITests.debug.xcconfig"; path = "Target Support Files/Pods-Minecraft Server Status Watch-Minecraft Server Status WatchUITests/Pods-Minecraft Server Status Watch-Minecraft Server Status WatchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE1763E51F57AAE3A3FD1ABA /* Pods-Minecraft Server Status iOS WidgetExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minecraft Server Status iOS WidgetExtension.debug.xcconfig"; path = "Target Support Files/Pods-Minecraft Server Status iOS WidgetExtension/Pods-Minecraft Server Status iOS WidgetExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		F3838FA0283324E500E48AB2 /* MinecraftServerStatusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinecraftServerStatusApp.swift; sourceTree = "<group>"; };
 		F3838FA2283324E500E48AB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3838FA7283324E500E48AB2 /* Minecraft Server Status.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Minecraft Server Status.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3838FAD283324E500E48AB2 /* Minecraft Server Status.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Minecraft Server Status.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,13 +220,69 @@
 		F3838FC0283324E500E48AB2 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3838FC4283324E500E48AB2 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		F3838FC6283324E500E48AB2 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		F3838FDC2833251000E48AB2 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		F3838FDF2833252900E48AB2 /* PopularView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularView.swift; sourceTree = "<group>"; };
+		F3838FE22833253500E48AB2 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		F3838FE52833254300E48AB2 /* UserServers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserServers.swift; sourceTree = "<group>"; };
+		F3838FE82833255B00E48AB2 /* SettingsiOSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsiOSView.swift; sourceTree = "<group>"; };
+		F3838FEA2833257000E48AB2 /* SettingsMacView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsMacView.swift; sourceTree = "<group>"; };
+		F3838FEC2833258300E48AB2 /* ShareSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheetView.swift; sourceTree = "<group>"; };
+		F3838FF2283326FE00E48AB2 /* Minecraft Server Status iOS WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Minecraft Server Status iOS WidgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3838FF4283326FE00E48AB2 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		F3838FF6283326FE00E48AB2 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		F3838FF9283326FE00E48AB2 /* Minecraft_Server_Status_iOS_Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minecraft_Server_Status_iOS_Widget.swift; sourceTree = "<group>"; };
+		F3838FFB283326FE00E48AB2 /* Minecraft_Server_Status_iOS_Widget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Minecraft_Server_Status_iOS_Widget.intentdefinition; sourceTree = "<group>"; };
+		F3838FFC283326FE00E48AB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3838FFE283326FE00E48AB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F383900C2833271D00E48AB2 /* Minecraft Server Status MacOS WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Minecraft Server Status MacOS WidgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F38390102833271D00E48AB2 /* Minecraft_Server_Status_MacOS_Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minecraft_Server_Status_MacOS_Widget.swift; sourceTree = "<group>"; };
+		F38390122833271D00E48AB2 /* Minecraft_Server_Status_MacOS_Widget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Minecraft_Server_Status_MacOS_Widget.intentdefinition; sourceTree = "<group>"; };
+		F38390132833271E00E48AB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F38390152833271E00E48AB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F38390162833271E00E48AB2 /* Minecraft_Server_Status_MacOS_Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Minecraft_Server_Status_MacOS_Widget.entitlements; sourceTree = "<group>"; };
+		F38390222833279700E48AB2 /* Minecraft Server Status Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Minecraft Server Status Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F38390242833279700E48AB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F383902A2833279700E48AB2 /* Minecraft Server Status Watch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Minecraft Server Status Watch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F383902F2833279800E48AB2 /* Minecraft_Server_StatusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minecraft_Server_StatusApp.swift; sourceTree = "<group>"; };
+		F38390312833279800E48AB2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F38390332833279800E48AB2 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		F38390352833279800E48AB2 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		F38390372833279800E48AB2 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		F38390392833279800E48AB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F383903C2833279800E48AB2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F383903E2833279800E48AB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F383903F2833279800E48AB2 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		F38390442833279800E48AB2 /* Minecraft Server Status WatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Minecraft Server Status WatchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F38390482833279800E48AB2 /* Minecraft_Server_Status_WatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minecraft_Server_Status_WatchTests.swift; sourceTree = "<group>"; };
+		F383904E2833279800E48AB2 /* Minecraft Server Status WatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Minecraft Server Status WatchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F38390522833279800E48AB2 /* Minecraft_Server_Status_WatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minecraft_Server_Status_WatchUITests.swift; sourceTree = "<group>"; };
+		F38390542833279800E48AB2 /* Minecraft_Server_Status_WatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minecraft_Server_Status_WatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F3DA629A2834207500A0E829 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		F3DA629D2834209D00A0E829 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		F3DA62A0283421BE00A0E829 /* Minecraft-Server-Status--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Minecraft-Server-Status--iOS--Info.plist"; sourceTree = "<group>"; };
+		F3DA62A2283422E500A0E829 /* ServerHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerHeader.swift; sourceTree = "<group>"; };
+		F3DA62A52834407C00A0E829 /* identicon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = identicon.swift; sourceTree = "<group>"; };
+		F3DA62A82834570500A0E829 /* identiconLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = identiconLib.swift; sourceTree = "<group>"; };
+		F3DA62AB28345D3900A0E829 /* ServerPing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerPing.swift; sourceTree = "<group>"; };
+		F3DA62AE2834648100A0E829 /* BedrockPing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedrockPing.swift; sourceTree = "<group>"; };
+		F3DA62B12834648B00A0E829 /* JavaPing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JavaPing.swift; sourceTree = "<group>"; };
+		F9CF14B71D2BC19C97A66605 /* Pods_Minecraft_Server_Status_iOS_WidgetExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Minecraft_Server_Status_iOS_WidgetExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		50C6FEF1DDE38EAFC5B3FA55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8DBED77B5CB7FB0CACA2CA /* Pods_Minecraft_Server_Status_Watch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F3838FA4283324E500E48AB2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23F823CB3738CB8C9E18494C /* Pods_Minecraft_Server_Status__iOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +290,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1CE7E2276CF5085F0371C73 /* Pods_Minecraft_Server_Status__macOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,25 +308,109 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F3838FEF283326FE00E48AB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3838FF7283326FE00E48AB2 /* SwiftUI.framework in Frameworks */,
+				F3838FF5283326FE00E48AB2 /* WidgetKit.framework in Frameworks */,
+				CE8E58E016D3671114E26C22 /* Pods_Minecraft_Server_Status_iOS_WidgetExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38390092833271D00E48AB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F383900E2833271D00E48AB2 /* SwiftUI.framework in Frameworks */,
+				F383900D2833271D00E48AB2 /* WidgetKit.framework in Frameworks */,
+				0A5064BA25E600A628919E15 /* Pods_Minecraft_Server_Status_MacOS_WidgetExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38390272833279700E48AB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F792CCFE05C0084D76BC5DA /* Pods_Minecraft_Server_Status_Watch_WatchKit_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38390412833279800E48AB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5746938739C54415216CE6F /* Pods_Minecraft_Server_Status_WatchTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F383904B2833279800E48AB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D86CBF2886E3398A93C18D60 /* Pods_Minecraft_Server_Status_Watch_Minecraft_Server_Status_WatchUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50315AFA4B4DA377F70D3B54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9677623516252EAAC0DF8712 /* Pods-Minecraft Server Status (iOS).debug.xcconfig */,
+				C928CEDCFE8A0370DE7834C7 /* Pods-Minecraft Server Status (iOS).release.xcconfig */,
+				6280D107DC65D811CF4C7DAA /* Pods-Minecraft Server Status (macOS).debug.xcconfig */,
+				D1F3386CBF9A7424D0BB8A92 /* Pods-Minecraft Server Status (macOS).release.xcconfig */,
+				7C58C209913E2675877D42B7 /* Pods-Minecraft Server Status MacOS WidgetExtension.debug.xcconfig */,
+				6E903773868E367AD8CBD5C2 /* Pods-Minecraft Server Status MacOS WidgetExtension.release.xcconfig */,
+				61FF78E9139811E55EFEBF50 /* Pods-Minecraft Server Status Watch.debug.xcconfig */,
+				8EE472B88EED1FB1A359DCD5 /* Pods-Minecraft Server Status Watch.release.xcconfig */,
+				C112C96B00CC3FD5661F42CF /* Pods-Minecraft Server Status Watch WatchKit Extension.debug.xcconfig */,
+				0F96B9A16791E8C268AB4D5C /* Pods-Minecraft Server Status Watch WatchKit Extension.release.xcconfig */,
+				D660124A28D4E16D8D9A20CF /* Pods-Minecraft Server Status Watch-Minecraft Server Status WatchUITests.debug.xcconfig */,
+				D3F68547DB76A98D1A60185F /* Pods-Minecraft Server Status Watch-Minecraft Server Status WatchUITests.release.xcconfig */,
+				349314D8A7E1A97BAFDD2F10 /* Pods-Minecraft Server Status WatchTests.debug.xcconfig */,
+				81E862A711DB75E9336B8425 /* Pods-Minecraft Server Status WatchTests.release.xcconfig */,
+				EE1763E51F57AAE3A3FD1ABA /* Pods-Minecraft Server Status iOS WidgetExtension.debug.xcconfig */,
+				532D8FB974A13BFA50904046 /* Pods-Minecraft Server Status iOS WidgetExtension.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F3838F9A283324E400E48AB2 = {
 			isa = PBXGroup;
 			children = (
+				F3DA62A0283421BE00A0E829 /* Minecraft-Server-Status--iOS--Info.plist */,
 				F3838F9F283324E500E48AB2 /* Shared */,
 				F3838FAE283324E500E48AB2 /* macOS */,
+				F3838FF8283326FE00E48AB2 /* Minecraft Server Status iOS Widget */,
+				F383900F2833271D00E48AB2 /* Minecraft Server Status MacOS Widget */,
+				F38390232833279700E48AB2 /* Minecraft Server Status Watch */,
+				F383902E2833279800E48AB2 /* Minecraft Server Status Watch WatchKit Extension */,
 				F3838FB7283324E500E48AB2 /* Tests iOS */,
 				F3838FC3283324E500E48AB2 /* Tests macOS */,
+				F38390472833279800E48AB2 /* Minecraft Server Status WatchTests */,
+				F38390512833279800E48AB2 /* Minecraft Server Status WatchUITests */,
+				F3838FF3283326FE00E48AB2 /* Frameworks */,
 				F3838FA8283324E500E48AB2 /* Products */,
+				50315AFA4B4DA377F70D3B54 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		F3838F9F283324E500E48AB2 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				F3838FA0283324E500E48AB2 /* Minecraft_Server_StatusApp.swift */,
-				F3838FA1283324E500E48AB2 /* ContentView.swift */,
+				F3DA62A12834229100A0E829 /* MinecraftServerStatusLib */,
+				F3838FA0283324E500E48AB2 /* MinecraftServerStatusApp.swift */,
+				F3838FDC2833251000E48AB2 /* TabViewController.swift */,
+				F3838FDF2833252900E48AB2 /* PopularView.swift */,
+				F3838FE22833253500E48AB2 /* FavoritesView.swift */,
+				F3838FE52833254300E48AB2 /* UserServers.swift */,
+				F3838FE82833255B00E48AB2 /* SettingsiOSView.swift */,
+				F3838FEA2833257000E48AB2 /* SettingsMacView.swift */,
+				F3838FEC2833258300E48AB2 /* ShareSheetView.swift */,
 				F3838FA2283324E500E48AB2 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -111,6 +423,12 @@
 				F3838FAD283324E500E48AB2 /* Minecraft Server Status.app */,
 				F3838FB4283324E500E48AB2 /* Tests iOS.xctest */,
 				F3838FC0283324E500E48AB2 /* Tests macOS.xctest */,
+				F3838FF2283326FE00E48AB2 /* Minecraft Server Status iOS WidgetExtension.appex */,
+				F383900C2833271D00E48AB2 /* Minecraft Server Status MacOS WidgetExtension.appex */,
+				F38390222833279700E48AB2 /* Minecraft Server Status Watch.app */,
+				F383902A2833279700E48AB2 /* Minecraft Server Status Watch WatchKit Extension.appex */,
+				F38390442833279800E48AB2 /* Minecraft Server Status WatchTests.xctest */,
+				F383904E2833279800E48AB2 /* Minecraft Server Status WatchUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,6 +459,110 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		F3838FF3283326FE00E48AB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3838FF4283326FE00E48AB2 /* WidgetKit.framework */,
+				F3838FF6283326FE00E48AB2 /* SwiftUI.framework */,
+				7CADBD0A3C6027881BC3D205 /* Pods_Minecraft_Server_Status__iOS_.framework */,
+				7ADB7E9690B3D66A642333F5 /* Pods_Minecraft_Server_Status__macOS_.framework */,
+				BF65883D23D246C14CB3A943 /* Pods_Minecraft_Server_Status_MacOS_WidgetExtension.framework */,
+				0DE5B6F0DD94C29FCAA063CF /* Pods_Minecraft_Server_Status_Watch.framework */,
+				81CE7E787355EB5E45455984 /* Pods_Minecraft_Server_Status_Watch_WatchKit_Extension.framework */,
+				2AD1EFBE65AD1EB56F315DE0 /* Pods_Minecraft_Server_Status_Watch_Minecraft_Server_Status_WatchUITests.framework */,
+				33BB1253EA091CFFFBB8878C /* Pods_Minecraft_Server_Status_WatchTests.framework */,
+				F9CF14B71D2BC19C97A66605 /* Pods_Minecraft_Server_Status_iOS_WidgetExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3838FF8283326FE00E48AB2 /* Minecraft Server Status iOS Widget */ = {
+			isa = PBXGroup;
+			children = (
+				F3838FF9283326FE00E48AB2 /* Minecraft_Server_Status_iOS_Widget.swift */,
+				F3DA629D2834209D00A0E829 /* Fonts */,
+				F3838FFB283326FE00E48AB2 /* Minecraft_Server_Status_iOS_Widget.intentdefinition */,
+				F3838FFC283326FE00E48AB2 /* Assets.xcassets */,
+				F3838FFE283326FE00E48AB2 /* Info.plist */,
+			);
+			path = "Minecraft Server Status iOS Widget";
+			sourceTree = "<group>";
+		};
+		F383900F2833271D00E48AB2 /* Minecraft Server Status MacOS Widget */ = {
+			isa = PBXGroup;
+			children = (
+				F3DA629A2834207500A0E829 /* Fonts */,
+				F38390102833271D00E48AB2 /* Minecraft_Server_Status_MacOS_Widget.swift */,
+				F38390122833271D00E48AB2 /* Minecraft_Server_Status_MacOS_Widget.intentdefinition */,
+				F38390132833271E00E48AB2 /* Assets.xcassets */,
+				F38390152833271E00E48AB2 /* Info.plist */,
+				F38390162833271E00E48AB2 /* Minecraft_Server_Status_MacOS_Widget.entitlements */,
+			);
+			path = "Minecraft Server Status MacOS Widget";
+			sourceTree = "<group>";
+		};
+		F38390232833279700E48AB2 /* Minecraft Server Status Watch */ = {
+			isa = PBXGroup;
+			children = (
+				F38390242833279700E48AB2 /* Assets.xcassets */,
+			);
+			path = "Minecraft Server Status Watch";
+			sourceTree = "<group>";
+		};
+		F383902E2833279800E48AB2 /* Minecraft Server Status Watch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F383902F2833279800E48AB2 /* Minecraft_Server_StatusApp.swift */,
+				F38390312833279800E48AB2 /* ContentView.swift */,
+				F38390332833279800E48AB2 /* NotificationController.swift */,
+				F38390352833279800E48AB2 /* NotificationView.swift */,
+				F38390372833279800E48AB2 /* ComplicationController.swift */,
+				F38390392833279800E48AB2 /* Assets.xcassets */,
+				F383903E2833279800E48AB2 /* Info.plist */,
+				F383903F2833279800E48AB2 /* PushNotificationPayload.apns */,
+				F383903B2833279800E48AB2 /* Preview Content */,
+			);
+			path = "Minecraft Server Status Watch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		F383903B2833279800E48AB2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F383903C2833279800E48AB2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F38390472833279800E48AB2 /* Minecraft Server Status WatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				F38390482833279800E48AB2 /* Minecraft_Server_Status_WatchTests.swift */,
+			);
+			path = "Minecraft Server Status WatchTests";
+			sourceTree = "<group>";
+		};
+		F38390512833279800E48AB2 /* Minecraft Server Status WatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F38390522833279800E48AB2 /* Minecraft_Server_Status_WatchUITests.swift */,
+				F38390542833279800E48AB2 /* Minecraft_Server_Status_WatchUITestsLaunchTests.swift */,
+			);
+			path = "Minecraft Server Status WatchUITests";
+			sourceTree = "<group>";
+		};
+		F3DA62A12834229100A0E829 /* MinecraftServerStatusLib */ = {
+			isa = PBXGroup;
+			children = (
+				F3DA62A2283422E500A0E829 /* ServerHeader.swift */,
+				F3DA62A52834407C00A0E829 /* identicon.swift */,
+				F3DA62A82834570500A0E829 /* identiconLib.swift */,
+				F3DA62AB28345D3900A0E829 /* ServerPing.swift */,
+				F3DA62AE2834648100A0E829 /* BedrockPing.swift */,
+				F3DA62B12834648B00A0E829 /* JavaPing.swift */,
+			);
+			path = MinecraftServerStatusLib;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,13 +570,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3838FD0283324E500E48AB2 /* Build configuration list for PBXNativeTarget "Minecraft Server Status (iOS)" */;
 			buildPhases = (
+				115C7692618402598E829A6A /* [CP] Check Pods Manifest.lock */,
 				F3838FA3283324E500E48AB2 /* Sources */,
 				F3838FA4283324E500E48AB2 /* Frameworks */,
 				F3838FA5283324E500E48AB2 /* Resources */,
+				F3839007283326FE00E48AB2 /* Embed App Extensions */,
+				F38390602833279800E48AB2 /* Embed Watch Content */,
+				D8AAD7023A01DD0A1C139029 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F3839002283326FE00E48AB2 /* PBXTargetDependency */,
+				F38390572833279800E48AB2 /* PBXTargetDependency */,
 			);
 			name = "Minecraft Server Status (iOS)";
 			productName = "Minecraft Server Status (iOS)";
@@ -165,13 +593,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3838FD3283324E500E48AB2 /* Build configuration list for PBXNativeTarget "Minecraft Server Status (macOS)" */;
 			buildPhases = (
+				ED2BC5218BDA791D06199522 /* [CP] Check Pods Manifest.lock */,
 				F3838FA9283324E500E48AB2 /* Sources */,
 				F3838FAA283324E500E48AB2 /* Frameworks */,
 				F3838FAB283324E500E48AB2 /* Resources */,
+				F383901F2833271E00E48AB2 /* Embed App Extensions */,
+				B88FB1F195D648850C3C249C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F383901A2833271E00E48AB2 /* PBXTargetDependency */,
 			);
 			name = "Minecraft Server Status (macOS)";
 			productName = "Minecraft Server Status (macOS)";
@@ -214,6 +646,117 @@
 			productReference = F3838FC0283324E500E48AB2 /* Tests macOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		F3838FF1283326FE00E48AB2 /* Minecraft Server Status iOS WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3839004283326FE00E48AB2 /* Build configuration list for PBXNativeTarget "Minecraft Server Status iOS WidgetExtension" */;
+			buildPhases = (
+				C986C62766CA8A7B10E2C425 /* [CP] Check Pods Manifest.lock */,
+				F3838FEE283326FE00E48AB2 /* Sources */,
+				F3838FEF283326FE00E48AB2 /* Frameworks */,
+				F3838FF0283326FE00E48AB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Minecraft Server Status iOS WidgetExtension";
+			productName = "Minecraft Server Status iOS WidgetExtension";
+			productReference = F3838FF2283326FE00E48AB2 /* Minecraft Server Status iOS WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		F383900B2833271D00E48AB2 /* Minecraft Server Status MacOS WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F383901C2833271E00E48AB2 /* Build configuration list for PBXNativeTarget "Minecraft Server Status MacOS WidgetExtension" */;
+			buildPhases = (
+				8C1D30C0CFDFD20BE026F363 /* [CP] Check Pods Manifest.lock */,
+				F38390082833271D00E48AB2 /* Sources */,
+				F38390092833271D00E48AB2 /* Frameworks */,
+				F383900A2833271D00E48AB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Minecraft Server Status MacOS WidgetExtension";
+			productName = "Minecraft Server Status MacOS WidgetExtension";
+			productReference = F383900C2833271D00E48AB2 /* Minecraft Server Status MacOS WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		F38390212833279700E48AB2 /* Minecraft Server Status Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F383905D2833279800E48AB2 /* Build configuration list for PBXNativeTarget "Minecraft Server Status Watch" */;
+			buildPhases = (
+				F435A83A4F70C57D4FA79B11 /* [CP] Check Pods Manifest.lock */,
+				F38390202833279700E48AB2 /* Resources */,
+				F383905C2833279800E48AB2 /* Embed App Extensions */,
+				50C6FEF1DDE38EAFC5B3FA55 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F383902D2833279700E48AB2 /* PBXTargetDependency */,
+			);
+			name = "Minecraft Server Status Watch";
+			productName = "Minecraft Server Status Watch";
+			productReference = F38390222833279700E48AB2 /* Minecraft Server Status Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		F38390292833279700E48AB2 /* Minecraft Server Status Watch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F38390592833279800E48AB2 /* Build configuration list for PBXNativeTarget "Minecraft Server Status Watch WatchKit Extension" */;
+			buildPhases = (
+				C16DEC4A7F85BC601EA12155 /* [CP] Check Pods Manifest.lock */,
+				F38390262833279700E48AB2 /* Sources */,
+				F38390272833279700E48AB2 /* Frameworks */,
+				F38390282833279700E48AB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Minecraft Server Status Watch WatchKit Extension";
+			productName = "Minecraft Server Status Watch WatchKit Extension";
+			productReference = F383902A2833279700E48AB2 /* Minecraft Server Status Watch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		F38390432833279800E48AB2 /* Minecraft Server Status WatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F38390612833279800E48AB2 /* Build configuration list for PBXNativeTarget "Minecraft Server Status WatchTests" */;
+			buildPhases = (
+				E6A12D55FA33BE4F5BD31CE9 /* [CP] Check Pods Manifest.lock */,
+				F38390402833279800E48AB2 /* Sources */,
+				F38390412833279800E48AB2 /* Frameworks */,
+				F38390422833279800E48AB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F38390462833279800E48AB2 /* PBXTargetDependency */,
+			);
+			name = "Minecraft Server Status WatchTests";
+			productName = "Minecraft Server Status WatchTests";
+			productReference = F38390442833279800E48AB2 /* Minecraft Server Status WatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F383904D2833279800E48AB2 /* Minecraft Server Status WatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F38390642833279800E48AB2 /* Build configuration list for PBXNativeTarget "Minecraft Server Status WatchUITests" */;
+			buildPhases = (
+				C7FA77FDFCE23C43A9BB2D51 /* [CP] Check Pods Manifest.lock */,
+				F383904A2833279800E48AB2 /* Sources */,
+				F383904B2833279800E48AB2 /* Frameworks */,
+				F383904C2833279800E48AB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F38390502833279800E48AB2 /* PBXTargetDependency */,
+			);
+			name = "Minecraft Server Status WatchUITests";
+			productName = "Minecraft Server Status WatchUITests";
+			productReference = F383904E2833279800E48AB2 /* Minecraft Server Status WatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -238,6 +781,26 @@
 						CreatedOnToolsVersion = 13.3.1;
 						TestTargetID = F3838FAC283324E500E48AB2;
 					};
+					F3838FF1283326FE00E48AB2 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					F383900B2833271D00E48AB2 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					F38390212833279700E48AB2 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					F38390292833279700E48AB2 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					F38390432833279800E48AB2 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = F38390292833279700E48AB2;
+					};
+					F383904D2833279800E48AB2 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = F38390212833279700E48AB2;
+					};
 				};
 			};
 			buildConfigurationList = F3838F9E283324E400E48AB2 /* Build configuration list for PBXProject "Minecraft Server Status" */;
@@ -257,6 +820,12 @@
 				F3838FAC283324E500E48AB2 /* Minecraft Server Status (macOS) */,
 				F3838FB3283324E500E48AB2 /* Tests iOS */,
 				F3838FBF283324E500E48AB2 /* Tests macOS */,
+				F3838FF1283326FE00E48AB2 /* Minecraft Server Status iOS WidgetExtension */,
+				F383900B2833271D00E48AB2 /* Minecraft Server Status MacOS WidgetExtension */,
+				F38390212833279700E48AB2 /* Minecraft Server Status Watch */,
+				F38390292833279700E48AB2 /* Minecraft Server Status Watch WatchKit Extension */,
+				F38390432833279800E48AB2 /* Minecraft Server Status WatchTests */,
+				F383904D2833279800E48AB2 /* Minecraft Server Status WatchUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -266,7 +835,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3DA629E2834209D00A0E829 /* Fonts in Resources */,
 				F3838FCC283324E500E48AB2 /* Assets.xcassets in Resources */,
+				F3DA629B2834207500A0E829 /* Fonts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +845,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3DA629F2834209D00A0E829 /* Fonts in Resources */,
 				F3838FCD283324E500E48AB2 /* Assets.xcassets in Resources */,
+				F3DA629C2834207500A0E829 /* Fonts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,15 +865,287 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F3838FF0283326FE00E48AB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3838FFD283326FE00E48AB2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F383900A2833271D00E48AB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38390142833271E00E48AB2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38390202833279700E48AB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38390252833279700E48AB2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38390282833279700E48AB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F383903D2833279800E48AB2 /* Preview Assets.xcassets in Resources */,
+				F383903A2833279800E48AB2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38390422833279800E48AB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F383904C2833279800E48AB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		115C7692618402598E829A6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Minecraft Server Status (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C1D30C0CFDFD20BE026F363 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Minecraft Server Status MacOS WidgetExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B88FB1F195D648850C3C249C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Minecraft Server Status (macOS)/Pods-Minecraft Server Status (macOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Minecraft Server Status (macOS)/Pods-Minecraft Server Status (macOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Minecraft Server Status (macOS)/Pods-Minecraft Server Status (macOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C16DEC4A7F85BC601EA12155 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Minecraft Server Status Watch WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7FA77FDFCE23C43A9BB2D51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Minecraft Server Status Watch-Minecraft Server Status WatchUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C986C62766CA8A7B10E2C425 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Minecraft Server Status iOS WidgetExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8AAD7023A01DD0A1C139029 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Minecraft Server Status (iOS)/Pods-Minecraft Server Status (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Minecraft Server Status (iOS)/Pods-Minecraft Server Status (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Minecraft Server Status (iOS)/Pods-Minecraft Server Status (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6A12D55FA33BE4F5BD31CE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Minecraft Server Status WatchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED2BC5218BDA791D06199522 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Minecraft Server Status (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F435A83A4F70C57D4FA79B11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Minecraft Server Status Watch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F3838FA3283324E500E48AB2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3838FCA283324E500E48AB2 /* ContentView.swift in Sources */,
-				F3838FC8283324E500E48AB2 /* Minecraft_Server_StatusApp.swift in Sources */,
+				F3DA62AC28345D3900A0E829 /* ServerPing.swift in Sources */,
+				F3DA62B22834648B00A0E829 /* JavaPing.swift in Sources */,
+				F3838FE32833253500E48AB2 /* FavoritesView.swift in Sources */,
+				F3DA62A3283422E500A0E829 /* ServerHeader.swift in Sources */,
+				F3DA62AF2834648100A0E829 /* BedrockPing.swift in Sources */,
+				F3838FE92833255B00E48AB2 /* SettingsiOSView.swift in Sources */,
+				F3838FDD2833251000E48AB2 /* TabViewController.swift in Sources */,
+				F3DA62A92834570500A0E829 /* identiconLib.swift in Sources */,
+				F3839000283326FE00E48AB2 /* Minecraft_Server_Status_iOS_Widget.intentdefinition in Sources */,
+				F3DA62A62834407C00A0E829 /* identicon.swift in Sources */,
+				F3838FE02833252900E48AB2 /* PopularView.swift in Sources */,
+				F3838FE62833254300E48AB2 /* UserServers.swift in Sources */,
+				F3838FC8283324E500E48AB2 /* MinecraftServerStatusApp.swift in Sources */,
+				F3838FED2833258300E48AB2 /* ShareSheetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,8 +1153,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3838FCB283324E500E48AB2 /* ContentView.swift in Sources */,
-				F3838FC9283324E500E48AB2 /* Minecraft_Server_StatusApp.swift in Sources */,
+				F3DA62B32834648B00A0E829 /* JavaPing.swift in Sources */,
+				F3838FE42833253500E48AB2 /* FavoritesView.swift in Sources */,
+				F3DA62AD28345D3900A0E829 /* ServerPing.swift in Sources */,
+				F3838FEB2833257000E48AB2 /* SettingsMacView.swift in Sources */,
+				F3838FDE2833251000E48AB2 /* TabViewController.swift in Sources */,
+				F3DA62B02834648100A0E829 /* BedrockPing.swift in Sources */,
+				F3DA62A72834407C00A0E829 /* identicon.swift in Sources */,
+				F3838FE12833252900E48AB2 /* PopularView.swift in Sources */,
+				F38390182833271E00E48AB2 /* Minecraft_Server_Status_MacOS_Widget.intentdefinition in Sources */,
+				F3DA62A4283422E500A0E829 /* ServerHeader.swift in Sources */,
+				F3DA62AA2834570500A0E829 /* identiconLib.swift in Sources */,
+				F3838FE72833254300E48AB2 /* UserServers.swift in Sources */,
+				F3838FC9283324E500E48AB2 /* MinecraftServerStatusApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +1187,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F3838FEE283326FE00E48AB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3838FFA283326FE00E48AB2 /* Minecraft_Server_Status_iOS_Widget.swift in Sources */,
+				F3838FFF283326FE00E48AB2 /* Minecraft_Server_Status_iOS_Widget.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38390082833271D00E48AB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38390112833271D00E48AB2 /* Minecraft_Server_Status_MacOS_Widget.swift in Sources */,
+				F38390172833271E00E48AB2 /* Minecraft_Server_Status_MacOS_Widget.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38390262833279700E48AB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38390342833279800E48AB2 /* NotificationController.swift in Sources */,
+				F38390322833279800E48AB2 /* ContentView.swift in Sources */,
+				F38390382833279800E48AB2 /* ComplicationController.swift in Sources */,
+				F38390302833279800E48AB2 /* Minecraft_Server_StatusApp.swift in Sources */,
+				F38390362833279800E48AB2 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38390402833279800E48AB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38390492833279800E48AB2 /* Minecraft_Server_Status_WatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F383904A2833279800E48AB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38390532833279800E48AB2 /* Minecraft_Server_Status_WatchUITests.swift in Sources */,
+				F38390552833279800E48AB2 /* Minecraft_Server_Status_WatchUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -343,6 +1246,36 @@
 			isa = PBXTargetDependency;
 			target = F3838FAC283324E500E48AB2 /* Minecraft Server Status (macOS) */;
 			targetProxy = F3838FC1283324E500E48AB2 /* PBXContainerItemProxy */;
+		};
+		F3839002283326FE00E48AB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3838FF1283326FE00E48AB2 /* Minecraft Server Status iOS WidgetExtension */;
+			targetProxy = F3839001283326FE00E48AB2 /* PBXContainerItemProxy */;
+		};
+		F383901A2833271E00E48AB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F383900B2833271D00E48AB2 /* Minecraft Server Status MacOS WidgetExtension */;
+			targetProxy = F38390192833271E00E48AB2 /* PBXContainerItemProxy */;
+		};
+		F383902D2833279700E48AB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F38390292833279700E48AB2 /* Minecraft Server Status Watch WatchKit Extension */;
+			targetProxy = F383902C2833279700E48AB2 /* PBXContainerItemProxy */;
+		};
+		F38390462833279800E48AB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F38390292833279700E48AB2 /* Minecraft Server Status Watch WatchKit Extension */;
+			targetProxy = F38390452833279800E48AB2 /* PBXContainerItemProxy */;
+		};
+		F38390502833279800E48AB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F38390212833279700E48AB2 /* Minecraft Server Status Watch */;
+			targetProxy = F383904F2833279800E48AB2 /* PBXContainerItemProxy */;
+		};
+		F38390572833279800E48AB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F38390212833279700E48AB2 /* Minecraft Server Status Watch */;
+			targetProxy = F38390562833279800E48AB2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -458,7 +1391,9 @@
 		};
 		F3838FD1283324E500E48AB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9677623516252EAAC0DF8712 /* Pods-Minecraft Server Status (iOS).debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +1401,7 @@
 				DEVELOPMENT_TEAM = KQ8J5D3R22;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Minecraft-Server-Status--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -488,7 +1424,9 @@
 		};
 		F3838FD2283324E500E48AB2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C928CEDCFE8A0370DE7834C7 /* Pods-Minecraft Server Status (iOS).release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -496,6 +1434,7 @@
 				DEVELOPMENT_TEAM = KQ8J5D3R22;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Minecraft-Server-Status--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -519,7 +1458,9 @@
 		};
 		F3838FD4283324E500E48AB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6280D107DC65D811CF4C7DAA /* Pods-Minecraft Server Status (macOS).debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
@@ -547,7 +1488,9 @@
 		};
 		F3838FD5283324E500E48AB2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1F3386CBF9A7424D0BB8A92 /* Pods-Minecraft Server Status (macOS).release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
@@ -652,6 +1595,335 @@
 			};
 			name = Release;
 		};
+		F3839005283326FE00E48AB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE1763E51F57AAE3A3FD1ABA /* Pods-Minecraft Server Status iOS WidgetExtension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KQ8J5D3R22;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Minecraft Server Status iOS Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Minecraft Server Status iOS Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gregoryw3.Minecraft-Server-Status.Minecraft-Server-Status-iOS-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3839006283326FE00E48AB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 532D8FB974A13BFA50904046 /* Pods-Minecraft Server Status iOS WidgetExtension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KQ8J5D3R22;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Minecraft Server Status iOS Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Minecraft Server Status iOS Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gregoryw3.Minecraft-Server-Status.Minecraft-Server-Status-iOS-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F383901D2833271E00E48AB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C58C209913E2675877D42B7 /* Pods-Minecraft Server Status MacOS WidgetExtension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "Minecraft Server Status MacOS Widget/Minecraft_Server_Status_MacOS_Widget.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KQ8J5D3R22;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Minecraft Server Status MacOS Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Minecraft Server Status MacOS Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gregoryw3.Minecraft-Server-Status.Minecraft-Server-Status-MacOS-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F383901E2833271E00E48AB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E903773868E367AD8CBD5C2 /* Pods-Minecraft Server Status MacOS WidgetExtension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "Minecraft Server Status MacOS Widget/Minecraft_Server_Status_MacOS_Widget.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KQ8J5D3R22;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Minecraft Server Status MacOS Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Minecraft Server Status MacOS Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gregoryw3.Minecraft-Server-Status.Minecraft-Server-Status-MacOS-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F383905A2833279800E48AB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C112C96B00CC3FD5661F42CF /* Pods-Minecraft Server Status Watch WatchKit Extension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Minecraft Server Status Watch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = KQ8J5D3R22;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Minecraft Server Status Watch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Minecraft Server Status Watch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gregoryw3.Minecraft-Server-Status.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		F383905B2833279800E48AB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F96B9A16791E8C268AB4D5C /* Pods-Minecraft Server Status Watch WatchKit Extension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Minecraft Server Status Watch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = KQ8J5D3R22;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Minecraft Server Status Watch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Minecraft Server Status Watch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gregoryw3.Minecraft-Server-Status.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		F383905E2833279800E48AB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61FF78E9139811E55EFEBF50 /* Pods-Minecraft Server Status Watch.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KQ8J5D3R22;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Minecraft_Server_Status_Watch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Minecraft Server Status Watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.gregoryw3.Minecraft-Server-Status";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gregoryw3.Minecraft-Server-Status.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		F383905F2833279800E48AB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EE472B88EED1FB1A359DCD5 /* Pods-Minecraft Server Status Watch.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KQ8J5D3R22;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Minecraft_Server_Status_Watch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Minecraft Server Status Watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.gregoryw3.Minecraft-Server-Status";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gregoryw3.Minecraft-Server-Status.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		F38390622833279800E48AB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 349314D8A7E1A97BAFDD2F10 /* Pods-Minecraft Server Status WatchTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KQ8J5D3R22;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gregoryw3.Minecraft-Server-Status.Minecraft-Server-Status-WatchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Minecraft Server Status Watch WatchKit Extension.appex/Minecraft Server Status Watch WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		F38390632833279800E48AB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81E862A711DB75E9336B8425 /* Pods-Minecraft Server Status WatchTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KQ8J5D3R22;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gregoryw3.Minecraft-Server-Status.Minecraft-Server-Status-WatchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Minecraft Server Status Watch WatchKit Extension.appex/Minecraft Server Status Watch WatchKit Extension";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		F38390652833279800E48AB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D660124A28D4E16D8D9A20CF /* Pods-Minecraft Server Status Watch-Minecraft Server Status WatchUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KQ8J5D3R22;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gregoryw3.Minecraft-Server-Status.Minecraft-Server-Status-WatchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Minecraft Server Status Watch";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		F38390662833279800E48AB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3F68547DB76A98D1A60185F /* Pods-Minecraft Server Status Watch-Minecraft Server Status WatchUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KQ8J5D3R22;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gregoryw3.Minecraft-Server-Status.Minecraft-Server-Status-WatchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Minecraft Server Status Watch";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -696,6 +1968,60 @@
 			buildConfigurations = (
 				F3838FDA283324E500E48AB2 /* Debug */,
 				F3838FDB283324E500E48AB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3839004283326FE00E48AB2 /* Build configuration list for PBXNativeTarget "Minecraft Server Status iOS WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3839005283326FE00E48AB2 /* Debug */,
+				F3839006283326FE00E48AB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F383901C2833271E00E48AB2 /* Build configuration list for PBXNativeTarget "Minecraft Server Status MacOS WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F383901D2833271E00E48AB2 /* Debug */,
+				F383901E2833271E00E48AB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F38390592833279800E48AB2 /* Build configuration list for PBXNativeTarget "Minecraft Server Status Watch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F383905A2833279800E48AB2 /* Debug */,
+				F383905B2833279800E48AB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F383905D2833279800E48AB2 /* Build configuration list for PBXNativeTarget "Minecraft Server Status Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F383905E2833279800E48AB2 /* Debug */,
+				F383905F2833279800E48AB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F38390612833279800E48AB2 /* Build configuration list for PBXNativeTarget "Minecraft Server Status WatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F38390622833279800E48AB2 /* Debug */,
+				F38390632833279800E48AB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F38390642833279800E48AB2 /* Build configuration list for PBXNativeTarget "Minecraft Server Status WatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F38390652833279800E48AB2 /* Debug */,
+				F38390662833279800E48AB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

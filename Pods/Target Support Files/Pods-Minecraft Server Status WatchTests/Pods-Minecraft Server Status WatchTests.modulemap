@@ -1,0 +1,6 @@
+framework module Pods_Minecraft_Server_Status_WatchTests {
+  umbrella header "Pods-Minecraft Server Status WatchTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

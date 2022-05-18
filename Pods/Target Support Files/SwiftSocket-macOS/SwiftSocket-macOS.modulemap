@@ -1,0 +1,6 @@
+framework module SwiftSocket {
+  umbrella header "SwiftSocket-macOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
